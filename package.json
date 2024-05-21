@@ -1,11 +1,11 @@
 {
-  "name": "andresjosehr-portfolio",
+  "name": "dixiecoin-landing",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build-portfolio": "ng build --configuration production",
+    "build-production": "ng build --configuration production",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -29,6 +29,7 @@
     "aos": "^2.3.4",
     "bootstrap": "^4.5.0",
     "ng2-animate-on-scroll": "2.3.2",
+    "ngx-clipboard": "^16.0.0",
     "ngx-google-analytics": "^11.2.0",
     "ngx-owl-carousel-o": "^6.0.0",
     "rxjs": "~6.5.5",

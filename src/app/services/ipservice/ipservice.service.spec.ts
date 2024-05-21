@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { IpserviceService } from './ipservice.service';
+import { StateService } from './state.service';
 
 describe('IpserviceService', () => {
-  let service: IpserviceService;
+  let service: StateService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(IpserviceService);
+    service = TestBed.inject(StateService);
   });
 
   it('should be created', () => {

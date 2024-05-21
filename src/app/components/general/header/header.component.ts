@@ -6,6 +6,9 @@ import { TranslateService } from '@ngx-translate/core';
 import { FormControl } from '@angular/forms';
 import { LanguageService } from 'src/app/services/language/language.service';
 import { ThisReceiver } from '@angular/compiler';
+import {StateService} from '../../../services/ipservice/state.service';
+import {pipe, Subject} from 'rxjs';
+import {distinctUntilChanged, takeUntil} from 'rxjs/operators';
 
 
 @Component({
@@ -36,18 +39,30 @@ export class HeaderComponent implements OnInit {
   pageYPosition: number;
   languageFormControl: FormControl= new FormControl();
   cvName: string = "";
+  showHeaderIcon:boolean = false;
+  private destroyed$: Subject<boolean> = new Subject<boolean>();
 
   constructor(
     private router: Router,
     public analyticsService: AnalyticsService,
-    public languageService: LanguageService
+    public languageService: LanguageService,
+    public stateService: StateService
   ) { }
 
   ngOnInit(): void {
 
     this.languageFormControl.valueChanges.subscribe(val => this.languageService.changeLanguage(val))
 
-    this.languageFormControl.setValue(this.languageService.language)
+    this.languageFormControl.setValue(this.languageService.language);
+
+    this.stateService
+      .getIconState()
+      .pipe(
+        distinctUntilChanged()
+      )
+      .subscribe(obs => {
+        this.showHeaderIcon = obs.valueOf();
+      })
 
   }
 

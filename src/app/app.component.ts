@@ -12,8 +12,9 @@ import { Router } from '@angular/router';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit{
-  title = 'andresjosehr-portfolio';
-  
+  title = 'DixieCoin';
+  showLoadingAnimation: boolean = true;
+
   constructor(
     private titleService: Title,
     private metaService: Meta,
@@ -23,19 +24,22 @@ export class AppComponent implements OnInit{
     ){
     }
   ngOnInit(): void{
-    
-    this.languageService.initLanguage()
 
+    setTimeout(() => {
+      this.showLoadingAnimation = false;
+    }, 3000);
 
-    this.titleService.setTitle( "José Andrés | Frontend Developer" );
+    this.languageService.initLanguage();
+
+    this.titleService.setTitle( "DixieCoin" );
 
     this.metaService.addTags([
-      {name: 'keywords', content: 'Frontend, software, developer'},
-      {name: 'description', content: 'Con 4 años de experiencia desarrollando sistemas, interfaces, bots y soluciones tecnológicas  para hacer de la web un lugar mejor. En mi trabajo me gusta liderar, proponer y ejecutar ideas, escribir y refactorizar código limpio, reutilizable y escalable.'},
+      {name: 'keywords', content: 'Dixiecoin, crypto, token, blockchain, base, coinbase, memecoin'},
+      {name: 'description', content: ''},
     ]);
-    
-    
-    AOS.init(); 
+
+
+    AOS.init();
 
   }
 }

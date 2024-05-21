@@ -2,6 +2,7 @@ import { Component, OnInit, AfterViewInit } from '@angular/core';
 
 import {trigger, state, style, animate, transition, stagger, query } from "@angular/animations"
 import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
+import {StateService} from '../../../services/ipservice/state.service';
 
 @Component({
   selector: 'app-banner',
@@ -23,16 +24,20 @@ import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
     ])
   ]
 })
-export class BannerComponent implements OnInit {
+export class BannerComponent implements OnInit, AfterViewInit {
 
-  
 
   constructor(
-    public analyticsService: AnalyticsService
+    public analyticsService: AnalyticsService,
+    public stateService: StateService
   ) { }
 
-  ngOnInit(): void { 
+  ngOnInit(): void {
   }
-  
+
+  ngAfterViewInit(): void {
+    this.stateService.setIconState(false);
+  }
+
 
 }

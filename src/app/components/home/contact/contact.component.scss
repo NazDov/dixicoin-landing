@@ -60,10 +60,14 @@
         text-align: center;
     }
 
+  .contact-content {
+    font-size: 24px;
+  }
+
 }
 
 @media (max-width: 768px){
-    
+
     .contact{
         height: 100vh;
         padding: 0 !important;

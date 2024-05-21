@@ -1,7 +1,11 @@
-<app-header></app-header>
-<!-- <div>
-    <h1> {{"HELLO" | translate}}</h1>
-    <h2>Hola</h2>
-</div> -->
-<router-outlet></router-outlet>
-<app-footer></app-footer>
+<ng-container *ngIf="!showLoadingAnimation">
+  <app-header></app-header>
+  <router-outlet></router-outlet>
+  <app-footer></app-footer>
+</ng-container>
+
+<ng-container *ngIf="showLoadingAnimation">
+  <div class="d-flex flex-fill justify-content-center align-content-center w-100 loading-animation">
+    <img src="assets/images/dc_animation_sync_8_lg.gif" alt="dixiecoin loading animation" />
+  </div>
+</ng-container>

@@ -1,0 +1,46 @@
+{
+  "Header.Item1": "Про $DIXIE",
+  "Header.Item2": "Як придбати",
+  "Header.Item3": "Токеноміка",
+  "Header.Item4": "Контакти",
+  "Banner.Pretitle": "Привіт! Ласкаво просимо до $DIXIECOIN",
+  "Banner.Description": "<span class='underline'>DixieCoin</span> - нова криптовалюта в мережі <span class='underline'>Base Chain</span>, готова забезпечити вам низьку комісію та швидкі проведення транзакцій, щоб допомогти вам увійти в наступну фазу <span class='underline'>децентралізованої економіки</span> та криптоплатежів.",
+  "Banner.ActionBtn": "Придбати $DIXIE",
+  "AboutMe.Title": "Про $DIXIE",
+  "AboutMe.Paragraphs": [
+    "Ласкаво просимо до <span class='underline'>DixieCoin</span>, де інновації та довіра у світі криптовалют мешкають поруч. Названий на честь нашого сімейного улюбленця, <span class='underline'>французького бульдога Діксі</span>, наш проект втілює той самий дух товариства, довіри, простоти та надійності.<br/><br/>\n\nУ <span class='underline'>DixieCoin</span> ми не просто ще одна криптовалюта. Ми ініціатива, що приводиться спільнотою, спрямована на створення безпечної, прозорої та доступної платформи для ентузіастів, інвесторів та розробників одночасно. Наша мета - створити простір, де кожен, від досвідчених трейдерів до новачків, зможе брати участь у захоплюючому світі цифрових активів з впевненістю.<br/><br/>\n\nПриєднуйтесь до <span class='underline'>DixieCoin</span> сьогодні і переконайтеся в цьому самі!"
+  ],
+  "HowTo.Title": "Як придбати",
+  "HowTo.Step1.Title": "Налаштування гаманця",
+  "HowTo.Step1.Description": "Встановіть криптогаманець, сумісний з <span class='underline'>Base Chain</span>, такий як <span class='underline'>MetaMask</span> або <span class='underline'>Coinbase Wallet</span>, та додайте до нього <span class='underline'>Ethereum (ETH)</span>.",
+  "ActiveBtn.Download1": "Завантажити MetaMask",
+  "OR": "АБО",
+  "ActiveBtn.Download2": "Coinbase Wallet",
+  "HowTo.Step2.Title": "Конвертація $ETH до Base",
+  "HowTo.Step2.Description": "Конвертуйте <span class=\"underline\">Ethereum (ETH)</span> безпосередньо на <span class=\"underline\">Base Chain</span> або відправте його на свій гаманець Ethereum і конвертуйте <span class=\"underline\">ETH в Base</span> через офіційний Base Bridge або Orbiter Finance.",
+  "HowTo.Step2.ActiveBtn": "$ETH до Base",
+  "HowTo.Step3.Title": "Обміняйте $ETH на $DIXIE",
+  "HowTo.Step3.Description": "Перейдіть на <span class=\"underline\">Uniswap</span> і вкажіть суму <span class=\"underline\">ETH</span> для обміну, перегляньте <span class=\"underline\">деталі транзакції</span>, відредагуйте просікання (slippage), якщо потрібно, та виконайте обмін.",
+  "HowTo.Step3.ActiveBtn": "Обмін $ETH",
+  "Experience.Title": "Токеноміка",
+
+  "Tokenomics.Title": "Токеноміка",
+  "Tokenomics.Supply.Title": "Обіг монет $ DIXIE",
+  "Tokenomics.Tax.Title": "ПОКУПКА|ПРОДАЖ ПОДАТОК",
+  "Tokenomics.Airdrop.Title": "5% Роздача та Благодійність",
+  "Tokenomics.Airdrop.Description": "Під час запуску приблизно 2% токенів будуть розподілені між  гаманцями в екосистемі Base.\n <br/>\n 25 мільйонів токенів DIXIE будуть зарезервовані для благодійних внесків,\n таких як підтримка Української Армії <img class=\"pb-1\" src=\"assets/icons/ukraine-favicon.png\" width=\"16px\">",
+  "Tokenomics.Dev.Title": "3% Розробка та <span class=\"text-slate\">2% Маркетинг</span>",
+  "Tokenomics.Dev.Description": "3% токенів будуть використані для компенсації будь-яких зусиль щодо розробки.\n 2% коштів будуть виділені на можливі маркетингові заходи та лістинг на біржах.",
+
+  "OtherProjects.Title": "Майбутні проекти",
+  "OtherProjects.DixieBase.Title": "DIXIE<span class=\"underline\">BASE</span>: Підтримка екосистеми мережі Base",
+  "OtherProjects.DixieBase.Description": "Ласкаво просимо до <span class=\"underline\">DixieBase</span>, революційного децентралізованого додатка (dApp), який призначений\n трансформувати екосистему <span class=\"underline\">мережі Base</span>. Побудований на основі\n токена <span class=\"underline\">DixieCoin</span>,\n DixieBase має стати основною платформою для стейкінгу та криптообміну в спільноті <span class=\"underline\">мережі Base </span>.",
+
+  "Contact.Pretitle": "Що далі",
+  "Contact.Title": "Зв'яжіться з нами!",
+  "Contact.Content": "$ DIXIE буде дуже рада, якщо ви зацікавлені у нових можливостях. Будь ласка, не соромтеся звертатися і підписуйтесь на наші соцмережі.",
+  "Contact.Btn": "Скажіть Привіт",
+  "Contact.AllRightsReserved": "Авторське право © <!-- -->2024<!-- --> DIXIECOIN. Усі права захищені."
+
+
+}

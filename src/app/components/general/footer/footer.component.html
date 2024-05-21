@@ -2,28 +2,32 @@
     <div [@animateFooter]>
         <ul class="footer-left-bar d-none d-md-block">
             <li>
-                <a (click)='analyticsService.sendAnalyticEvent("click_github", "footer", "github")' href="https://github.com/andresjosehr" target='_blank'>
-                    <i class="fab fa-github"></i>
+                <a (click)='analyticsService.sendAnalyticEvent("click_github", "footer", "telegram")' href="#" target='_blank'>
+                    <i class="fab fa-telegram"></i>
                 </a>
             </li>
             <li>
-                <a (click)='analyticsService.sendAnalyticEvent("click_linkedin", "footer", "github")' href="https://www.linkedin.com/in/andresjosehr/" target='_blank'>
-                    <i class="fab fa-linkedin-in"></i>
+                <a (click)='analyticsService.sendAnalyticEvent("click_twitter", "footer", "twitter")' href="#" target='_blank'>
+                    <i class="fab fa-twitter"></i>
                 </a>
             </li>
+
+          <li>
+            <a (click)='analyticsService.sendAnalyticEvent("click_linkedin", "footer", "instagram")' href="#" target='_blank'>
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+
         </ul>
         <div class="footer-right-bar d-none d-md-block">
-            <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "footer", "email")' href="mailto:andresjosehr@gmail.com" target='_blank'>andresjosehr@gmail.com </a>
+            <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "footer", "email")' href="mailto:support@diciecoin.pro" target='_blank'>marketing@dixiecoin.live</a>
         </div>
     </div>
 
     <div class="footer-credits text-center" >
-        <a (click)='analyticsService.sendAnalyticEvent("click_github_portfolio_andresjose", "footer", "click")' href="https://github.com/andresjosehr/andresjosehr-portfolio" target="_blank" rel="nofollow noopener noreferrer">
-            <div>Built with Angular by Jose Andres</div>
-        </a>
-        <a (click)='analyticsService.sendAnalyticEvent("click_github_portfolio_brittany", "footer", "click")' href="https://github.com/bchiang7/v4" target="_blank" rel="nofollow noopener noreferrer">
-            <div class="mt-2">Designed by Brittany Chiang</div>
-        </a>
+
+      <section [innerHTML]='"Contact.AllRightsReserved" | translate' class=" text-sm bg-bg2 text-center p-1 text-white">
+      </section>
     </div>
 
 </footer>

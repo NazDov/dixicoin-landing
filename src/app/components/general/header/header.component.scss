@@ -1,7 +1,7 @@
 @import "./../../../../variables.scss";
 .main-navbar {
     height: 70px;
-    background: $Navy;
+    background: $DARK_BLUE;
     font-family: $CodeFont;
     .menu-ul{
       li{
@@ -233,7 +233,7 @@
     padding-left: 16px;
     padding-right: 16px;
     padding-bottom: 4px;
-    background: #172a45;
+    background: $DARK_BLUE;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -243,7 +243,7 @@
     color: #cbd5f5 !important;
     padding: 11px 8px !important;
     text-align: center;
-    background: #0a192f !important;
+    background: $LIGHT_BLUE !important;
 }
 
 .language-container-selector.active {
