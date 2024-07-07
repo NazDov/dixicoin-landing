@@ -96,4 +96,9 @@ export class HeaderComponent implements OnInit {
     changeLanguage(language: string) {
       this.languageFormControl.setValue(language);
     }
+
+
+    navigateToAirdrop() {
+      this.router.navigateByUrl(this.languageService.language + `/airdrop`);
+    }
 }

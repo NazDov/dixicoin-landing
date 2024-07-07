@@ -3,6 +3,8 @@
   "Header.Item2": "How to Buy",
   "Header.Item3": "Tokenomics",
   "Header.Item4": "Contacts",
+  "Header.Airdrop": "Airdrop",
+  "Airdrop.ApplyBtn": "Apply Now",
   "Banner.Pretitle": "Hello! Welcome to $DIXIECOIN",
   "Banner.Description": "<span class='underline'>DixieCoin</span> - the new cryptocurrency on <span class='underline'>Base Chain</span> is here to provide you with low fees and fast transaction speed to help you enter the next phase of <span class='underline'>decentralized economy</span> and crypto adoption.",
   "Banner.ActionBtn": "Buy $DIXIE",
@@ -26,11 +28,12 @@
   "Tokenomics.Title": "Tokenomics",
   "Tokenomics.Supply.Title": "$ DIXIE Supply",
   "Tokenomics.Tax.Title": "BUY|SELL TAX",
-  "Tokenomics.Airdrop.Title": "5% Airdrop & Charity",
-  "Tokenomics.Airdrop.Description": "Upon launch some 2% of the tokens will be distributed across top wallets in base ecosystem.\n <br/>\n 25 Million DIXIE tokens will be reserved for charity donations,\n such as supporting Ukrainian Army <img class=\"pb-1\" src=\"assets/icons/ukraine-favicon.png\" width=\"16px\">",
-  "Tokenomics.Dev.Title": "3% DEV & <span class=\"text-slate\">2% Marketing</span>",
-  "Tokenomics.Dev.Description": "These 3% tokens will be utilized to compensate any development efforts.\n 2% of the funds will be allocated towards marketing efforts and listing on exchanges (CEX'es).",
-
+  "Tokenomics.Airdrop.Title": "4% Airdrop & Charity",
+  "Tokenomics.Airdrop.Description": "Upon launch some 2% of the tokens will be distributed across top wallets in base ecosystem.\n <br/>\n 20 Million DIXIE tokens will be reserved for charity donations,\n such as supporting Ukrainian Army <img class=\"pb-1\" src=\"assets/icons/ukraine-favicon.png\" width=\"16px\">",
+  "Tokenomics.Dev.Title": "4% DEV & <span class=\"text-slate\">2% Marketing</span>",
+  "Tokenomics.Dev.Description": "These 4% tokens will be utilized to compensate any development efforts.\n 2% of the funds will be allocated towards marketing efforts and listing on exchanges (CEX'es).",
+  "Tokenomics.Contract": "CA:",
+  "Tokenomics.Contract.Address": "TBD              ",
 
   "FeatureProjects.Label": "Featured Project",
 

@@ -14,6 +14,10 @@ export class HowToComponent implements OnInit {
     public analyticsService: AnalyticsService
   ) { }
 
+  goToLink(url: string){
+    window.open(url, "_blank");
+  }
+
   ngOnInit(): void {
   }
 

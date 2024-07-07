@@ -12,6 +12,7 @@ import { TokenomicsComponent } from './tokenomics/tokenomics.component';
 import { NgbModule, NgbNav, NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { AirdropComponent } from '../airdrop/airdrop.component';
 
 export function HttpLoaderFactory(http: HttpClient){
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -27,7 +28,7 @@ export function HttpLoaderFactory(http: HttpClient){
     HowToComponent,
     TokenomicsComponent,
     MoreProyectsComponent,
-    ContactComponent,
+    ContactComponent
   ],
   imports: [
     CommonModule,

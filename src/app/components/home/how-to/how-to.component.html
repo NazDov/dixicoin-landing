@@ -18,9 +18,9 @@
                       <p [innerHTML]='"HowTo.Step1.Description" | translate'></p>
                     </div>
                     <div>
-                      <button [innerHTML]='"ActiveBtn.Download1" | translate' type="button" class="align-self-end main-btn ng-tns-c20-2"></button>
+                      <button (click)="goToLink('https://metamask.io/download/')" [innerHTML]='"ActiveBtn.Download1" | translate' type="button" class="align-self-end main-btn ng-tns-c20-2"></button>
                       <p class="mt-2 mb-2">{{"OR" | translate}}</p>
-                      <button [innerHTML]='"ActiveBtn.Download2" | translate' type="button" class="align-self-end main-btn ng-tns-c20-2"></button>
+                      <button (click)="goToLink('https://www.coinbase.com/wallet/downloads')" [innerHTML]='"ActiveBtn.Download2" | translate' type="button" class="align-self-end main-btn ng-tns-c20-2"></button>
                     </div>
                   </div>
                 </div>
@@ -33,7 +33,7 @@
                       <p [innerHTML]='"HowTo.Step2.Description" | translate'></p>
                     </div>
                     <div class="card-footer">
-                      <button type="button" class="align-self-end main-btn ng-tns-c20-2">{{"HowTo.Step2.ActiveBtn" | translate}}</button>
+                      <button (click)="goToLink('https://www.brid.gg/base?amount=&originChainId=1&token=ETH')" type="button" class="align-self-end main-btn ng-tns-c20-2">{{"HowTo.Step2.ActiveBtn" | translate}}</button>
                     </div>
                   </div>
                 </div>
