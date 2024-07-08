@@ -64,6 +64,30 @@
     font-size: 24px;
   }
 
+  .mobile-contact-details {
+    width: 350px;
+    ul {
+      margin: 0 auto;
+    }
+    li{
+      list-style: none;
+      width: 70px;
+    }
+
+    i{
+      font-size: 24px;
+      color: $LightSlate;
+    }
+
+    li{
+      margin: 20px 5px;
+
+      &:last-of-type {
+        margin-bottom: 33px;
+      }
+    }
+  }
+
 }
 
 @media (max-width: 768px){

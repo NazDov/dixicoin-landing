@@ -10,11 +10,34 @@
             <p class="contact-content" data-aos="fade-up" data-aos-duration="1000">
                 {{"Contact.Content" | translate}}
             </p>
+
+          <div class="container text-center d-lg-none d-xl-none d-md-none mobile-contact-details" data-aos="fade-up" data-aos-duration="1000">
+            <ul class="row text-center text-center">
+              <li>
+                <a (click)='analyticsService.sendAnalyticEvent("click_github", "footer", "telegram")' href="https://t.me/dixiecoin" target='_blank'>
+                  <i class="fab fa-telegram"></i>
+                </a>
+              </li>
+              <li>
+                <a (click)='analyticsService.sendAnalyticEvent("click_twitter", "footer", "twitter")' href="https://x.com/Dixie_Coin" target='_blank'>
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a (click)='analyticsService.sendAnalyticEvent("click_linkedin", "footer", "instagram")' href="#" target='_blank'>
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+
             <div class="mt-5">
                 <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "contact", "email")' href="mailto:support@dixiecoin.pro" target="_blank" class="main-btn" data-aos="fade-up" data-aos-duration="1000">
                     {{"Contact.Btn" | translate}}
                 </a>
             </div>
+
+
         </div>
     </div>
 </section>
