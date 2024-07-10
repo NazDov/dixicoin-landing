@@ -24,6 +24,7 @@ export class TokenomicsComponent implements OnInit {
 
 
   contractAddress: string = '0x62E0B9034fCF427F4D1687AA2316581b00D0789c';
+  private whitepaperUrl: string = 'https://drive.google.com/file/d/1Ncyzz3gB8yW2CV_g3xs0Lxh2DnGgs4Mx/view?usp=sharing';
 
 
   constructor(
@@ -48,5 +49,9 @@ debug(){
       document.removeEventListener('copy', null);
     });
     document.execCommand('copy');
+  }
+
+  openWhitepaper() {
+    window.open(this.whitepaperUrl, "_blank");
   }
 }
