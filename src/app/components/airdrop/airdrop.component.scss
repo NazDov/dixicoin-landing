@@ -54,18 +54,18 @@
       margin-left: 25%;
 
       img {
-        width: 550px;
-        height: 500px;
+        width: 500px;
+        height: 700px;
 
         @media (max-width: 480px){
-          width: 360px;
-          height: 320px;
+          width: 330px;
+          height: 500px;
         }
       }
 
       @media (max-width: 480px){
         width: 350px;
-        margin-left: 0 !important;
+        margin-left: -3% !important;
       }
 
       @media (max-width: 1024px){

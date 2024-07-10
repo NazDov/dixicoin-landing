@@ -14,6 +14,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader'
 import { HttpClient, HttpClientModule } from '@angular/common/http'
 import { TranslateLoader, TranslateModule, TranslateService } from '@ngx-translate/core';
 import {AirdropComponent} from './components/airdrop/airdrop.component';
+import {DixieWalletComponent} from './components/dixie-wallet/dixie-wallet.component';
 
 export function HttpLoaderFactory(http: HttpClient){
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -22,7 +23,8 @@ export function HttpLoaderFactory(http: HttpClient){
 @NgModule({
   declarations: [
     AppComponent,
-    AirdropComponent
+    AirdropComponent,
+    DixieWalletComponent
   ],
   imports: [
     BrowserAnimationsModule,
