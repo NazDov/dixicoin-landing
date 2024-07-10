@@ -23,18 +23,14 @@ export class TokenomicsComponent implements OnInit {
   @ViewChild('imgContainer') imgContainer: ElementRef;
 
 
-  contractAddress: string = '0x24fca802dade850a7c4c8d29a921edd603f746ce';
+  contractAddress: string = '0x62E0B9034fCF427F4D1687AA2316581b00D0789c';
 
 
   constructor(
     public analyticsService: AnalyticsService
   ) { }
 
-  ngOnInit(): void {
-
-
-
-  }
+  ngOnInit(): void {}
 
 debug(){
 
