@@ -1,5 +1,4 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
-import { trigger, query, stagger, style, animate, transition } from "@angular/animations"
 
 @Component({
   selector: 'app-airdrop',
